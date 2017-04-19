@@ -11,8 +11,14 @@
             "email": "adam.wathan@gmail.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/monarkee/blade-svg"
+        }
+    ],
     "require": {
-        "nothingworks/blade-svg": "^0.1.0"
+        "nothingworks/blade-svg": "dev-lower-dependencies"
     },
     "autoload": {
         "psr-4": {
